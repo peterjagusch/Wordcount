@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Text reader Test</title>
+		<meta charset="UTF-8">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<h1>Text reader</h1>
+		</header>
+		<section class="content">
+				<div class="control">
+					<textarea id="txtArea">The quick brown fox jumps over the lazy dog, before the duffle bag became his toy, now he's happy.</textarea>
+					<div class="error_msg" id="error_msg"></div>
+					<button id="ResultBtn">Submit</button>
+				</div>
+				<div class="results">
+					<div class="result_table" id="result_table">
+					</div>
+					<div class="punc_results" id="punc_results">
+					</div>
+				</div>
+		</section>
+		<footer>
+			<div>By Peter Jagusch</div>
+		</footer>
+		<script src="js/jquery-1.12.0.min.js"></script>
+		<script src="js/wordcount.js"></script>
+	</body>
+</html>
